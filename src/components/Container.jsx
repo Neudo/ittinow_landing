@@ -2,8 +2,10 @@ import React from 'react';
 
 function Container({children, id}) {
     return (
-        <div id={id} className="max-w-[1260px] h-[100vh] m-auto flex flex-wrap items-center">
-            {children}
+        <div id={id} className="w-[100vw] min-w-[100vw] h-[100vh] flex">
+            <div className="w-full m-auto max-w-[1280px]  flex items-center">
+                {children}
+            </div>
         </div>
     );
 }

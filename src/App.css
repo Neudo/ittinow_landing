@@ -6,15 +6,36 @@
 
 .primary{
   background-color: #51796F;
+  transition: .3s ease background-color
 }
 .primary:hover{
-  background-color: #55726a;
+  background-color: #29423b;
 }
 
 .secondary{
   background-color: #6FB2AE;
+  transition: .3s ease background-color;
 }
 
 .secondary:hover{
-  background-color: #82b7b4;
+  background-color: #155653;
+}
+.scroll-section-outer{
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 100%;
+  width: 300vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+
+a:after{
+  content: '';
+  inset: 0;
+  position: absolute;
+  cursor: pointer;
 }

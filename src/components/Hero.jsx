@@ -14,7 +14,7 @@ function Hero() {
                    </div>
                </div>
             <div className="right w-[65%] ">
-                <h1 className="text-6xl font-bold mb-4 text-balance">Découvrez <br/> de nouveaux restaurants</h1>
+                <h1 className="text-6xl font-bold mb-4">Découvrez <br/> de nouveaux restaurants</h1>
                 <p className="text-balance w-[85%]">Vous indiquez vos préférences, on vous propose des restaux en fonction de vos goûts. <br/>
                     Explorez des établissements uniques près de chez vous que vous n'auriez peut-être jamais trouvés autrement. <br/>
                     Soyez informé en avant-première des événements spéciaux et des promotions des restaurateurs.</p>
