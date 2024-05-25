@@ -6,7 +6,7 @@ import iphone from '../assets/images/iphone-12-home.png';
 
 function Hero() {
     return (
-        <Container id={'list'} >
+        <Container id={'hero'} >
                <div className="left w-[30%] mr-[5%]">
                    <div className="relative">
                    <img src={hero} alt="Hero" className="rounded-lg w-full"/>

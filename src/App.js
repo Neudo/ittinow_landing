@@ -7,6 +7,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {useEffect, useRef} from "react";
 import Events from "./components/Events";
+import Faq from "./components/Faq";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
                         <Hero/>
                         <List/>
                         <Events/>
-                        <List/>
+                        <Faq/>
                     </div>
                 </div>
             </div>

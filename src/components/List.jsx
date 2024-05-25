@@ -5,7 +5,7 @@ import iphone from '../assets/images/iphone-12-list.png';
 
 function List() {
     return (
-        <Container>
+        <Container id={"list"}>
             <div className="flex items-center justify-between">
                 <div className="flex flex-col w-[55%] justify-center">
                     <h1 className="text-6xl font-bold mb-4">Connectez-vous afin d’accéder à plus de fonctionnalités</h1>

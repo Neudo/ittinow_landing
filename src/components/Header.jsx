@@ -8,8 +8,8 @@ function Header() {
             <img src={logo} alt="Logo" className="mr-3"/>
             <ul className="flex gap-3 font-bold items-center">
                 <li><a href="#list">Votre liste</a></li>
-                <li><a href="#">Les évènements</a></li>
-                <li><a href="#">FAQs</a></li>
+                <li><a href="#events">Les évènements</a></li>
+                <li><a href="#faq">FAQs</a></li>
             </ul>
             <div className="pl-5 flex gap-3 text-white">
                 <CtaHeader text={"Espace pro"} color={"primary"} link={"#"}/>
