@@ -1,5 +1,5 @@
 .App {
-  background-color: #51796F;
+  background: linear-gradient(160deg, rgba(111,178,174,1) 0%, rgba(81,121,111,1) 81%);
   min-height: 100vh;
   color: white;
 }
